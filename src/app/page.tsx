@@ -25,6 +25,9 @@ export default function HomePage() {
               Bus Schedule
             </Link>
             <Link href="/map">Campus Map</Link>
+            <Link href="http://172.22.2.6/connect/PortalMain">
+              Network Portal
+            </Link>
           </nav>
         </div>
       </header>
