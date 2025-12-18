@@ -1,0 +1,346 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "acads_lawn",
+        "name": "Acads Lawn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92357517259647, 26.934998843867056]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bh-1",
+        "name": "Boys Hostel 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92308876207456, 26.93387840171178]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bh-2",
+        "name": "Boys Hostel 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92326762355079, 26.933878862825882]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bh-3",
+        "name": "Boys Hostel 3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92463009128383, 26.93465544405485]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bh-4",
+        "name": "Boys Hostel 4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92301736313554, 26.93132404831644]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cafeteria",
+        "name": "Cafeteria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.923376689973, 26.93471438849629]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "library",
+        "name": "Central Library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92334687167681, 26.93599728791845]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cp",
+        "name": "Central Plaza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92353712947038, 26.93633594284609]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cricket_ground",
+        "name": "Cricket Ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92013917830153, 26.93097443382927]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "faculty_parking",
+        "name": "Faculty Parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92440788745499, 26.936807491172434]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "football_ground",
+        "name": "Football Ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92099052588775, 26.930622571786603]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gh",
+        "name": "Girls Hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92269322946265, 26.93508446134354]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "guest_house",
+        "name": "Guest House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92199945347939, 26.93456589111632]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hilltop",
+        "name": "HillTop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.9231735369756, 26.937396322078655]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "incubation",
+        "name": "Incubation Building"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92535558801437, 26.936079678311803]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lt-1",
+        "name": "LT-1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92392777432262, 26.935683814817512]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lt_10",
+        "name": "LT-10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92392006579087, 26.935114581440196]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lt_2",
+        "name": "LT-2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92392603639703, 26.935534630811524]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lt-9",
+        "name": "LT-9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.9239235643782, 26.935278851876237]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gate-1",
+        "name": "Main Gate - 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92273956699047, 26.937810572221274]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "medical",
+        "name": "Medical Unit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92323320238947, 26.933251054095315]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mess-a",
+        "name": "Mess-A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92306174986388, 26.934714328845224]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mess-b",
+        "name": "Mess-B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92510335612141, 26.935000445404928]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mess-c",
+        "name": "Mess-C"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.9231533761384, 26.9315821790587]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mme_dept",
+        "name": "MME Department"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92470410688033, 26.936453985494698]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mme_workshop",
+        "name": "MME Workshop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92506514918891, 26.936450739539602]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "oat",
+        "name": "OAT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92356478267736, 26.934716468008755]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "outdoor_playing_area",
+        "name": "Outdoor Playing Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92279923453849, 26.933091446608064]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "prefab",
+        "name": "Prefab"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92639804141866, 26.935919891286883]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sac",
+        "name": "Student Activity Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92316226319657, 26.933129468686143]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "temple",
+        "name": "Temple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.92318845938391, 26.933453219986813]
+      }
+    }
+  ]
+}

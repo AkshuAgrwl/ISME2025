@@ -1,0 +1,173 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* font-family: "Times New Roman", Georgia, serif; */
+  /* background: #ffffff; */
+  /* color: #111; */
+}
+
+.building-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #0f172a;
+  background: rgba(255, 255, 255, 0.70);
+  padding: 1px 4px;
+  border-radius: 3px;
+  white-space: nowrap;
+  pointer-events: none;
+
+  /* subtle outline instead of box dominance */
+  text-shadow:
+    -1px -1px 0 #fff,
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff;
+}
+
+
+/* ===== NAVBAR ===== */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.navbar-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.6rem 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.navbar-links {
+  display: flex;
+  /* gap: 1.4rem; */
+}
+
+.navbar-links a {
+  text-decoration: none;
+  font-size: 0.95rem;
+  color: #111;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+/* ===== HERO (unchanged, ensure this exists) ===== */
+.hero {
+  position: relative;
+  height: calc(100vh - 64px);
+  background: url("/hero-campus.jpg") center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  max-width: 1000px;
+  padding: 0 1rem;
+}
+
+.hero-content h1 {
+  font-size: 2.4rem;
+  font-weight: normal;
+  margin: 1.2rem 0 0.5rem;
+}
+
+.hero-content h2 {
+  font-size: 1.8rem;
+  margin: 0.5rem 0;
+}
+
+.hero-date {
+  font-size: 1.2rem;
+  margin-top: 0.8rem;
+}
+
+.hero-org {
+  font-size: 1rem;
+  margin-top: 0.6rem;
+}
+
+.hero-email {
+  margin-top: 0.8rem;
+  font-size: 1rem;
+}
+
+.from-to-div {
+  flex-direction: row;
+  gap: 10px;
+}
+
+@media (max-width: 600px) {
+  .navbar-left {
+    margin-bottom: 20px;
+  }
+  .navbar-inner {
+    flex-direction: column;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .hero {
+    height: calc(100vh + 100px);
+  }
+
+  .from-to-div {
+    flex-direction: column;
+    gap: 0px;
+  }
+}
